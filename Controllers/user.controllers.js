@@ -35,7 +35,7 @@ const userDetails = async (req, res) => {
             const accountName = response.data.data.account_name;
             // const accountNumber = req.body.AccountNumber;
             // const bankCode = req.body.Bankcode;
-            console.log(accountName);
+            // console.log(accountName);
             res.status(200).json({ status: true, message: "Correct Account", accountName });
         }
     } catch (err) {
